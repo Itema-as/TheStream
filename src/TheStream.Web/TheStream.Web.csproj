@@ -317,6 +317,8 @@
     <Content Include="Content\images\a7.png" />
     <Content Include="Content\images\a8.png" />
     <Content Include="Content\images\a9.png" />
+    <Content Include="Content\images\jumbotron.png" />
+    <Content Include="Content\images\jumbotron_small.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\m0.jpg" />
     <Content Include="Content\images\m1.jpg" />
