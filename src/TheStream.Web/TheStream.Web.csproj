@@ -364,6 +364,7 @@
     <Content Include="Content\images\p7.jpg" />
     <Content Include="Content\images\p8.jpg" />
     <Content Include="Content\images\p9.jpg" />
+    <Content Include="Content\images\theStreamLogo.png" />
     <Content Include="Content\jplayer.flat.css" />
     <Content Include="Content\simple-line-icons.css" />
     <Content Include="favicon.ico" />
@@ -462,6 +463,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_LatestEntries.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_Recommendations.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
