@@ -15,6 +15,37 @@
                                         <small class="text-muted"><i class="fa fa-map-marker"></i> Trondheim</small>
                                     </div>
                                 </div>
+                            @if (ViewBag.Mode == "votes")
+                            {
+                                <div class="panel wrapper">
+                                    <div class="row text-center">
+                                        <div class="col-xs-6">
+                                            <a href="#">
+                                                <span class="m-b-xs h4 block">1423</span>
+                                                <small class="text-muted">stemmer</small>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <a href="#">
+                                                <span class="m-b-xs h4 block">13129</span>
+                                                <small class="text-muted">streams</small>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group btn-group-justified m-b">
+                                    <a class="btn btn-success btn-rounded" data-toggle="button">
+                                        <span class="text">
+                                            <i class="fa fa-check"></i> Stem på Gregers
+                                        </span>
+                                        <span class="text-active">
+                                            Du har stemt på Gregers
+                                        </span>
+                                    </a>
+                                </div>
+                            }
+                            else
+                            {
                                 <div class="panel wrapper">
                                     <div class="row text-center">
                                         <div class="col-xs-6">
@@ -44,6 +75,7 @@
                                         <i class="fa fa-comment-o"></i> Diskuter
                                     </a>
                                 </div>
+                            }
                                 <div>
                                     <small class="text-uc text-xs text-muted">om meg</small>
                                     <p>Singer/songwriter</p>
@@ -61,6 +93,7 @@
                                 </div>
                             </div>
                         </section>
+
                     </section>
                 </aside>
                 <aside class="bg-white">

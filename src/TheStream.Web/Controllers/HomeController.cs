@@ -27,8 +27,9 @@ namespace TheStream.Web.Controllers
             return View();
         }
 
-        public ActionResult Profile()
+        public ActionResult Profile(string mode = "streams")
         {
+            ViewBag.Mode = mode.ToLower();
             return View();
         }
     }
