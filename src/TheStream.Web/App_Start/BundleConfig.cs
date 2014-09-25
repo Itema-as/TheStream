@@ -35,7 +35,8 @@ namespace TheStream.Web
                       "~/Content/font-awesome.min.css",
                       "~/Content/simple-line-icons.css",
                       "~/Content/font.css",
-                      "~/Content/app.css"
+                      "~/Content/app.css",
+                      "~/Content/Site.css"
                       ));
 
             // Set EnableOptimizations to false for debugging. For more information,
