@@ -14,6 +14,7 @@ namespace TheStream.Web
                         "~/Scripts/respond.js",
                         "~/Scripts/app.js", 
                         "~/bower_components/slimScroll/jquery.slimscroll.js",
+                        "~/bower_components/jquery.easy-pie-chart/dist/easypiechart.js",
                         "~/Scripts/app.plugin.js",
                         "~/bower_components/jplayer/jquery.jplayer/jquery.jplayer.js",
                         "~/bower_components/jplayer/add-on/jplayer.playlist.js"
@@ -34,7 +35,8 @@ namespace TheStream.Web
                       "~/Content/font-awesome.min.css",
                       "~/Content/simple-line-icons.css",
                       "~/Content/font.css",
-                      "~/Content/app.css"
+                      "~/Content/app.css",
+                      "~/Content/Site.css"
                       ));
 
             // Set EnableOptimizations to false for debugging. For more information,
