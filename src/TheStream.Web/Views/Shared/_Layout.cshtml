@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title | The Stream</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -89,10 +89,10 @@
                     <ul class="dropdown-menu animated fadeInRight">
                         <li>
                             <span class="arrow top"></span>
-                            <a href="#">Instillinger</a>
+                            <a href="#">Innstillinger</a>
                         </li>
                         <li>
-                            <a href="profile.html">Profil</a>
+                            <a href="@Url.Content("~/Home/Profile")">Profil</a>
                         </li>
                         <li>
                             <a href="#">
