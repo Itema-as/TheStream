@@ -815,7 +815,7 @@ body.container {
   text-decoration: none;
 }
 .navbar-brand img {
-  max-height: 20px;
+  max-height: 30px;
   margin-top: -8px;
   vertical-align: middle;
 }

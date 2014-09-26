@@ -32,3 +32,6 @@
 .white-glow {
     text-shadow: 0px 0px 5px white;
 }
+.navbar-brand img {
+    max-height: 30px;
+}
