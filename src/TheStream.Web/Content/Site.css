@@ -8,3 +8,16 @@
 .artist-tabs .tab-pane {
     padding: 30px;
 }
+
+.frontpage-carousel h3 {
+    font-family: 'Poiret One', cursive;
+    padding-top: 30px;
+    font-size: 6.3rem;
+}
+
+@media (min-width: 768px) {
+    .frontpage-carousel h3 {
+        padding-top: 10px;
+        font-size: 4.5rem;
+    }
+}
