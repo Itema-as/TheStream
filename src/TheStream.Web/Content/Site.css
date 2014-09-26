@@ -28,3 +28,7 @@
 .nav-open .hidden-no-nav {
     display:none;
 }
+
+.white-glow {
+    text-shadow: 0px 0px 5px white;
+}
