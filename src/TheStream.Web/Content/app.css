@@ -816,7 +816,7 @@ body.container {
 }
 .navbar-brand img {
   max-height: 20px;
-  margin-top: -4px;
+  margin-top: -8px;
   vertical-align: middle;
 }
 .nav-primary li > a > i {

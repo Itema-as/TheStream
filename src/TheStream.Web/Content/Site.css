@@ -8,3 +8,11 @@
 .artist-tabs .tab-pane {
     padding: 30px;
 }
+
+.navbar-logo {
+     padding: 13px 0 17px 0 !important;
+}
+
+.nav-open .hidden-no-nav {
+    display:none;
+}

@@ -251,6 +251,8 @@
     <Content Include="Content\images\p8.jpg" />
     <Content Include="Content\images\p9.jpg" />
     <Content Include="Content\images\theStreamLogo.png" />
+    <Content Include="Content\images\theStreamLogoCyan.png" />
+    <Content Include="Content\images\theStreamLogoCyan30h.png" />
     <Content Include="Content\jplayer.flat.css" />
     <Content Include="Content\simple-line-icons.css" />
     <Content Include="favicon.ico" />
