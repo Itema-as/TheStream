@@ -17,7 +17,8 @@ namespace TheStream.Web
                         "~/bower_components/jquery.easy-pie-chart/dist/easypiechart.js",
                         "~/Scripts/app.plugin.js",
                         "~/bower_components/jplayer/jquery.jplayer/jquery.jplayer.js",
-                        "~/bower_components/jplayer/add-on/jplayer.playlist.js"
+                        "~/bower_components/jplayer/add-on/jplayer.playlist.js",
+                        "~/bower_components/slick.js/slick/slick.js"
                         ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -34,6 +35,7 @@ namespace TheStream.Web
                       "~/Content/animate.css",
                       "~/Content/font-awesome.min.css",
                       "~/Content/simple-line-icons.css",
+                      "~/bower_components/slick.js/slick/slick.css",
                       "~/Content/font.css",
                       "~/Content/app.css",
                       "~/Content/Site.css"
