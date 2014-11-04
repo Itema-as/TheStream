@@ -206,6 +206,10 @@
     <Content Include="Content\images\audition3.jpg" />
     <Content Include="Content\images\audition4.jpg" />
     <Content Include="Content\images\audition5.jpg" />
+    <Content Include="Content\images\berthina\b0.jpg" />
+    <Content Include="Content\images\berthina\b1.jpg" />
+    <Content Include="Content\images\berthina\b2.jpg" />
+    <Content Include="Content\images\berthina\b3.jpg" />
     <Content Include="Content\images\Bertine Zetlitz_small.png" />
     <Content Include="Content\images\jumbotron.png" />
     <Content Include="Content\images\jumbotron_small.png" />
