@@ -110,18 +110,19 @@
 
                                 <div class="tab-pane active" id="tracks">
                                     <div class="row row-sm">
-                                        <div class="col-xs-12 col-sm-8">
+                                        <div class="col-xs-12">
                                             <div class="item">
                                                 <div class="pos-rlt">
-                                                    <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="center text-center m-t-n">
-                                                            <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
-                                                        </div>
+                                                    <div class="video-16x9-wrapper">
+                                                        <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered embed-responsive-item"
+                                                               controls preload="auto" width="auto" height="auto"
+                                                               poster="~/Content/images/berthina.png"
+                                                               data-setup='{"example_option":true}'>
+                                                            <source src="~/Content/video/chandelier.mp4" type='video/mp4' />
+                                                            <source src="~/Content/video/chandelier.webm" type='video/webm' />
+                                                            <p class="vjs-no-js">For å se denne filmen, skru på JavaScript, og vurder å oppgradere nettleseren til en som støtter <a href="http://videojs.com/html5-video-support/" target="_blank">HTML5 video</a></p>
+                                                        </video>
                                                     </div>
-                                                    <div class="top">
-                                                        <span class="badge bg-dark m-l-sm m-t-sm">03:20</span>
-                                                    </div>
-                                                    <a href="#"><img src="@Url.Content("~/Content/images/berthina.png")" alt="" class="r r-2x img-full"></a>
                                                 </div>
                                                 <div class="padder-v">
                                                     <a href="#" class="text-ellipsis">Chandelier</a>
@@ -144,7 +145,7 @@
                                                                 42 minutter siden
                                                             </span>
                                                         </header>
-                                                        <div class="m-t-sm">Håper dere liker låta mi. Husk å del denne med deres venner:)</div>
+                                                        <div class="m-t-sm">Min versjon av Chandelier, håper dere liker den. Husk å del denne med deres venner:)</div>
                                                     </section>
                                                 </article>
                                                 <!-- .comment-reply -->
@@ -159,7 +160,7 @@
                                                                 26 minutes ago
                                                             </span>
                                                         </header>
-                                                        <div class="m-t-sm">Kjempelåt Berthina!</div>
+                                                        <div class="m-t-sm">Du er så flink!</div>
                                                     </section>
                                                 </article>
                                                 <!-- / .comment-reply -->

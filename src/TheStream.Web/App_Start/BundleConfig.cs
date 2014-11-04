@@ -35,12 +35,12 @@ namespace TheStream.Web
                       "~/Content/animate.css",
                       "~/Content/font-awesome.min.css",
                       "~/Content/simple-line-icons.css",
+                      "~/Scripts/video-js/video-js.css",
                       "~/bower_components/slick.js/slick/slick.css",
                       "~/Content/font.css",
                       "~/Content/app.css",
                       "~/Content/Site.css"
                       ));
-
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
             BundleTable.EnableOptimizations = false;

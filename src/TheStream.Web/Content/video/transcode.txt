@@ -1,0 +1,12 @@
+﻿# WebM, variable bitrate, 1MBit/s:
+ffmpeg.exe -i input.mov -c:v libvpx -b:v 1M -c:a libvorbis output.webm
+
+# MP4, variable bitrate, 1MBit/s:
+ffmpeg.exe -i input.mov -c:v libx264 -b:v 1M output.mp4
+
+# MP4, variable bitrate, 2.5MBit/s, maks kompatibilitet:
+ffmpeg.exe -i input.mov -c:v libx264 -profile:v baseline -level 3.0 -pix_fmt yuv420p -b:v 2500K output.mp4
+
+# MP4, variable bitrate, 2.5MBit/s, maks kompatibilitet, kjappere start i fra browser (nødvendig for å funke i Opera/Chrome):
+ffmpeg.exe -i input.mov -c:v libx264 -profile:v baseline -level 3.0 -pix_fmt yuv420p -b:v 2500K -movflags +faststart output.mp4
+
