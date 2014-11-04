@@ -274,6 +274,7 @@
     <Content Include="Content\images\profile\profile2full.jpg" />
     <Content Include="Content\images\profile\profile2small.jpg" />
     <Content Include="Content\images\theStreamLogo.png" />
+    <Content Include="Content\images\theStreamLogo30h.png" />
     <Content Include="Content\images\theStreamLogoCyan.png" />
     <Content Include="Content\images\theStreamLogoCyan30h.png" />
     <Content Include="Content\jplayer.flat.css" />
