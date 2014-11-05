@@ -22,6 +22,12 @@
     }
 }
 
+@media (max-width: 767px) {
+    #h3jfk {
+        padding-top: 0px;
+    }
+}
+
 .navbar-logo {
     padding: 13px 0 17px 0 !important;
 }
@@ -62,4 +68,20 @@
    
 .v-align-top, .v-align-top > * {
     vertical-align: top;
+}
+
+ul.one-line {
+    font-size: 0;
+}
+ul.one-line > * {
+    font-size: 14px;
+}
+ul.one-line li {
+    width: 24px;
+}
+ul.one-line li:first-child {
+    width: auto;
+    max-width: calc(100% - (24px * 3));
+    padding-left: 0;
+    padding-right: 0;
 }
