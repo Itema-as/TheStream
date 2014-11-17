@@ -14,21 +14,22 @@ namespace TheStream.Web
                         "~/Scripts/respond.js",
                         "~/Scripts/app.js", 
                         "~/bower_components/slimScroll/jquery.slimscroll.js",
-                        "~/bower_components/jquery.easy-pie-chart/dist/easypiechart.js",
+                        //"~/bower_components/jquery.easy-pie-chart/dist/easypiechart.js",
                         "~/Scripts/app.plugin.js",
-                        "~/bower_components/jplayer/jquery.jplayer/jquery.jplayer.js",
-                        "~/bower_components/jplayer/add-on/jplayer.playlist.js",
+                        //"~/bower_components/jplayer/jquery.jplayer/jquery.jplayer.js",
+                        //"~/bower_components/jplayer/add-on/jplayer.playlist.js",
                         "~/bower_components/slick.js/slick/slick.js"
                         ));
-
+            /*
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
-
+            */
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
+            /*
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
-
+            */
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/jplayer.flat.css",
                       "~/Content/bootstrap.css",
@@ -43,7 +44,7 @@ namespace TheStream.Web
                       ));
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
-            BundleTable.EnableOptimizations = false;
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
