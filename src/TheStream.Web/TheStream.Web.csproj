@@ -208,11 +208,17 @@
     <Content Include="Content\images\artists\4.jpg" />
     <Content Include="Content\images\artists\5.jpg" />
     <Content Include="Content\images\artists\6.jpg" />
+    <Content Include="Content\images\artists\c1-sm.jpg" />
     <Content Include="Content\images\artists\c1.png" />
+    <Content Include="Content\images\artists\c2-sm.jpg" />
     <Content Include="Content\images\artists\c2.png" />
+    <Content Include="Content\images\artists\c3-sm.jpg" />
     <Content Include="Content\images\artists\c3.png" />
+    <Content Include="Content\images\artists\c4-sm.jpg" />
     <Content Include="Content\images\artists\c4.png" />
+    <Content Include="Content\images\artists\c5-sm.jpg" />
     <Content Include="Content\images\artists\c5.png" />
+    <Content Include="Content\images\artists\c6-sm.jpg" />
     <Content Include="Content\images\artists\c6.png" />
     <Content Include="Content\images\artists\s1-big.png" />
     <Content Include="Content\images\artists\s1.jpg" />
@@ -232,6 +238,7 @@
     <Content Include="Content\images\berthina2.png" />
     <Content Include="Content\images\berthina3.png" />
     <Content Include="Content\images\berthina640.png" />
+    <Content Include="Content\images\berthina720.jpg" />
     <Content Include="Content\images\berthina720.png" />
     <Content Include="Content\images\berthina\b0.jpg" />
     <Content Include="Content\images\berthina\b1.jpg" />
@@ -239,6 +246,7 @@
     <Content Include="Content\images\berthina\b3.jpg" />
     <Content Include="Content\images\Bertine Zetlitz_small.png" />
     <Content Include="Content\images\Bertine Zetlitz_small_cut.jpg" />
+    <Content Include="Content\images\artists\c7-sm.jpg" />
     <Content Include="Content\images\jfk\jfk0.jpg" />
     <Content Include="Content\images\jfk\jfk1.jpg" />
     <Content Include="Content\images\jfk\jfk2.jpg" />
@@ -390,6 +398,9 @@
     <Content Include="fonts\vjs.eot" />
     <Content Include="fonts\vjs.ttf" />
     <Content Include="fonts\vjs.woff" />
+    <Content Include="bower_components\slick.js\slick\slick.min.js.map">
+      <DependentUpon>slick.min.js</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\TheStream - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\TheStream - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\TheStream.pubxml" />

@@ -29,7 +29,7 @@
                                                         <a href="~/home/profile"><i class="fa fa-play-circle i-2x"></i></a>
                                                     </div>
                                                 </div>
-                                                <a href="~/home/profile"><img src="~/Content/images/artists/c1-sm.jpg" alt="" class="r r-2x img-full"></a>
+                                                <a href="~/home/profile"><img src="~/Content/images/artists/c7-sm.jpg" alt="" class="r r-2x img-full"></a>
                                             </div>
                                             <div class="padder-v">
                                                 <ul class="list-inline v-align-top one-line">
@@ -104,9 +104,10 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        @**@
 
+                        @**@
+@*
+                    *@
                         <div style="background-image: url('/Content/images/Bertine Zetlitz_small_cut.jpg');background-color: #CA0088; background-repeat: no-repeat">
                             <div>
                                 <div class="row row-sm">
@@ -129,7 +130,7 @@
                                                         <a href="~/home/profile"><i class="fa fa-play-circle i-2x"></i></a>
                                                     </div>
                                                 </div>
-                                                <a href="~/home/profile"><img src="~/Content/images/artists/c1-sm.jpg" alt="" class="r r-2x img-full"></a>
+                                                <a href="~/home/profile"><img src="~/Content/images/artists/c7-sm.jpg" alt="" class="r r-2x img-full"></a>
                                             </div>
                                             <div class="padder-v">
                                                 <ul class="list-inline v-align-top one-line">
@@ -229,7 +230,7 @@
                                                             <a href="~/home/profile"><i class="fa fa-play-circle i-2x"></i></a>
                                                         </div>
                                                     </div>
-                                                    <a href="~/home/profile"><img src="~/Content/images/artists/c1-sm.jpg" alt="" class="r r-2x img-full"></a>
+                                                    <a href="~/home/profile"><img src="~/Content/images/artists/c7-sm.jpg" alt="" class="r r-2x img-full"></a>
                                                 </div>
                                                 <div class="padder-v">
                                                     <ul class="list-inline v-align-top one-line">
@@ -307,9 +308,10 @@
                             </div>
                         </div>
 
-                        @**@
                     </div>
-                    <div id="dragger"></div>
+                    
+                    <a id="dragger" href="~/home/profile"></a>
+                    
                     <div class="row">
                         <div class="col-md-7">
                             <h3 class="font-thin">De ferskeste bidragene</h3>
@@ -510,13 +512,13 @@
                             </div>
                         </div>
                         @*<div class="col-sm-6">
-                                <div class="bg-black wrapper-md r">
-                                    <a href="#">
-                                        <span class="h4 m-b-xs block"><i class="icon-cloud-download i-lg"></i> Download our app</span>
-                                        <span class="text-muted">Get the apps for desktop and mobile to start listening music at anywhere and anytime.</span>
-                                    </a>
-                                </div>
-                            </div>*@
+                    <div class="bg-black wrapper-md r">
+                        <a href="#">
+                            <span class="h4 m-b-xs block"><i class="icon-cloud-download i-lg"></i> Download our app</span>
+                            <span class="text-muted">Get the apps for desktop and mobile to start listening music at anywhere and anytime.</span>
+                        </a>
+                    </div>
+                </div>*@
                     </div>
                 </section>
 
@@ -530,13 +532,74 @@
 @section scripts
 {
     <script type="text/javascript">
+
+
+        //Monkeypatch slick.js to not register touch event listeners
+
+        /*Slick.prototype.initializeEvents = function () {
+
+            var _ = this;
+
+            _.initArrowEvents();
+
+            _.initDotEvents();
+
+            _.$list.on('mousedown.slick', {
+                action: 'start'
+            }, _.swipeHandler);
+            _.$list.on('mousemove.slick', {
+                action: 'move'
+            }, _.swipeHandler);
+            _.$list.on('mouseup.slick', {
+                action: 'end'
+            }, _.swipeHandler);
+            _.$list.on('mouseleave.slick', {
+                action: 'end'
+            }, _.swipeHandler);
+
+            if (_.options.pauseOnHover === true && _.options.autoplay === true) {
+                _.$list.on('mouseenter.slick', _.autoPlayClear);
+                _.$list.on('mouseleave.slick', _.autoPlay);
+            }
+
+            if (_.options.accessibility === true) {
+                _.$list.on('keydown.slick', _.keyHandler);
+            }
+
+            if (_.options.focusOnSelect === true) {
+                $(_.options.slide, _.$slideTrack).on('click.slick', _.selectHandler);
+            }
+
+            $(window).on('orientationchange.slick.slick-' + _.instanceUid, function () {
+                _.checkResponsive();
+                _.setPosition();
+            });
+
+            $(window).on('resize.slick.slick-' + _.instanceUid, function () {
+                if ($(window).width() !== _.windowWidth) {
+                    clearTimeout(_.windowDelay);
+                    _.windowDelay = window.setTimeout(function () {
+                        _.windowWidth = $(window).width();
+                        _.checkResponsive();
+                        _.setPosition();
+                    }, 50);
+                }
+            });
+
+            $(window).on('load.slick.slick-' + _.instanceUid, _.setPosition);
+            $(document).on('ready.slick.slick-' + _.instanceUid, _.setPosition);
+
+        };*/
+
         $(document).ready(function () {
             $(".frontpage-carousel").slick({
                 infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 autoplay: true,
-                autoplaySpeed: 5000
+                autoplaySpeed: 5000,
+                swipe: false,
+                touchMove: false
             });
         });
     </script>
